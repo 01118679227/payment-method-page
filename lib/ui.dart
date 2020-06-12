@@ -295,6 +295,28 @@ class UI extends StatelessWidget {
             ),
         ),
 
+            Padding(
+              padding: const EdgeInsets.only(right: 50.0,left: 50.0),
+              child: GestureDetector(
+                child: Container(
+                   width: MediaQuery.of(context).size.width,
+                       height: 40.0,
+                     decoration: BoxDecoration(
+                     color: Colors.blue.shade900,
+                     borderRadius: BorderRadius.circular(20.0),
+                    ),
+                  child: Center(
+                    child: Text('Place Order',
+                    style: TextStyle(
+                      color: Colors.white,
+                    ),
+                    ),
+                  ),
+                ),
+                onTap: (){},
+                ),
+            ),
+              SizedBox(height: 30.0,),
                               ],
                             ),
                     
